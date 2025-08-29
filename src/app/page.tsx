@@ -1,4 +1,4 @@
-import YouthMentalWellnessApp from '@/components/YouthMentalWellnessApp';
+import YouthMentalWellnessApp from '@/components/YouthMentalWellnessApp'
 
 export default function Home() {
   return <YouthMentalWellnessApp />;

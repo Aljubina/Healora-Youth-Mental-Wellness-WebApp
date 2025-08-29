@@ -77,12 +77,3 @@ To create a **stigma-free digital environment** where young people can access me
 - [ ] Launch educator dashboard & SEL tools  
 
 ---
-
-## 💡 Contributing
-We welcome contributions! Feel free to fork the repo, open an issue, or submit a PR to help improve Healora.
-
----
-
-## 📜 License
-This project is licensed under the **MIT License**.  
-See the [LICENSE](./LICENSE) file for details.

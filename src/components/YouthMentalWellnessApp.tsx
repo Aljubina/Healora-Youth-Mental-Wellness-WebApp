@@ -1,17 +1,16 @@
 "use client";
 
-import React, { useState, useEffect, use } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Heart, Brain, Shield, Users, MessageCircle, Phone, Calendar, TrendingUp, Star, ArrowRight, Menu, X, BookOpen, Target, Zap } from 'lucide-react';
 
-type User = {
-  name: string;
-  age: number;
-  streakDays: number;
-  completedGoals: number;
-  buddyName: string;
-};
-
 const YouthMentalWellnessApp = () => {
+  type User = {
+    name: string;
+    age: number;
+    streakDays: number;
+    completedGoals: number;
+    buddyName: string;
+  };
   const [currentUser, setCurrentUser] = useState<User | null>(null);
   const [activeTab, setActiveTab] = useState('dashboard');
   const [moodData, setMoodData] = useState([
@@ -66,6 +65,8 @@ const YouthMentalWellnessApp = () => {
     { name: 'Creative Expression', members: 31, topic: 'Art therapy & creativity', nextMeeting: 'Friday 6 PM' },
     { name: 'Social Connection Hub', members: 42, topic: 'Making friends & social skills', nextMeeting: 'Saturday 2 PM' }
   ];
+
+ <h1 className="text-4xl text-blue-500">Hello Tailwind</h1>
 
   const NavigationComponent = () => (
     <nav className="bg-gradient-to-r from-purple-600 via-blue-600 to-teal-600 text-white p-4 shadow-lg">
